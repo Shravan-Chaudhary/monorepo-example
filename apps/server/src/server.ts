@@ -1,5 +1,5 @@
 const login = (name: string, password: string) => {
-  console.log(`login with ${name} and ${password}`)
-}
+  console.log(`login with ${name} and ${password}`);
+};
 
-login('shravan', 'ahsdkfh')
+login("shravan", "ahsdkfh");
