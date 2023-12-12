@@ -1,5 +1,6 @@
-const login = (name: string, password: string) => {
-  console.log(`login with ${name} and ${password}`);
+const login = (name: string, password: string): string => {
+  const string = name + password;
+  return string;
 };
 
 login("shravan", "ahsdkfh");
